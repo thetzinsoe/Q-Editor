@@ -21,6 +21,7 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
+        console.log($('meta[name="csrf-token"]').attr('content'));
 
         $('#video-upload-form').on('submit', function(e) {
             e.preventDefault();

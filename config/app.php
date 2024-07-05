@@ -123,4 +123,8 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    /**
+     * This is website logo
+     */
+    'logo_url' => env('APP_LOGO_URL', 'default-logo-url'),
 ];
